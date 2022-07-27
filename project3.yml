@@ -17,7 +17,7 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_DATABASE: wordpresdb
+      MYSQL_DATABASE: wordpres
       MYSQL_USER: main
       MYSQL_PASSWORD: Aa123456
       MYSQL_RANDOM_ROOT_PASSWORD: 'Aa123456'
